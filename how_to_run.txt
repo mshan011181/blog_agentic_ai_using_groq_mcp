@@ -1,0 +1,6 @@
+cd "your_project_directory"
+cp "all_files"  "your_project_directory"
+export GROQ_API_KEY="your_groq_api_key"
+  
+python orchestrator_groq.py "Your BLOG topic"  
+##Eg: python orchestrator_groq.py "Building RAG systems with ChromaDB and Python" 
